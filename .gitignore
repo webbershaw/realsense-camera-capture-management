@@ -1,0 +1,9 @@
+static/
+__MACOSX/
+CaremaManagement/static/data/
+CaremaManagement/capture/static/
+CaremaManagement/test/saved_images/
+CaremaManagement/test/saved_pics/
+*.jpg
+*.png
+*.npy
