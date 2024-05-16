@@ -53,6 +53,11 @@ Navigate to the project directory:
 cd realsense-camera-capture-management
 ```
 
+Create a virtual environment:
+```bash
+python3 -m venv venv
+```
+
 Install required dependencies:
 ```bash
 pip install -r requirements.txt
