@@ -4,6 +4,8 @@ CaremaManagement/static/data/
 CaremaManagement/capture/static/
 CaremaManagement/test/saved_images/
 CaremaManagement/test/saved_pics/
+PythonUI/saved_pics/
+saved_pics/
 *.jpg
 *.png
 *.npy
