@@ -1,0 +1,5 @@
+numpy~=1.26.4
+PyQt5~=5.15.10
+opencv-python~=4.9.0.80
+pyrealsense2-macosx~=2.54.2
+pyrealsense2~=2.55.1
