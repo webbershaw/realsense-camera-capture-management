@@ -9,3 +9,6 @@ saved_pics/
 *.jpg
 *.png
 *.npy
+.DS_Store
+CaremaManagement/.DS_Store
+CaremaManagement/test/.DS_Store
