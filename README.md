@@ -1,7 +1,3 @@
-
-
----
-
 # Realsense Camera Capture Management
 
 The **Realsense Camera Capture Management** software facilitates real-time image capture and saving from Realsense cameras using PyRealsense, OpenCV, and PIL. It supports multiple cameras and offers two main implementation methods with distinct functionalities and interfaces.
@@ -17,12 +13,12 @@ The **Realsense Camera Capture Management** software facilitates real-time image
 
 ## Implementation Methods
 
-### Method 1: Django-based Web Application (Deprecated)
-- This method is based on Django and allows users to capture images via a web interface.
-- **Limitations:**
-  - Does not support automatic alignment of depth cameras with corresponding RGB cameras.
-  - Occasional freezing bugs.
-  - This version is outdated and no longer maintained.
+### ~~Method 1: Django-based Web Application (Deprecated)~~
+- ~~This method is based on Django and allows users to capture images via a web interface.~~
+- ~~**Limitations:**~~
+  - ~~Does not support automatic alignment of depth cameras with corresponding RGB cameras.~~
+  - ~~Occasional freezing bugs.~~
+  - ~~This version is outdated and no longer maintained.~~
 
 ### Method 2: Python-based GUI Application
 - A standalone desktop application developed in Python.
@@ -53,6 +49,11 @@ Navigate to the project directory:
 cd realsense-camera-capture-management
 ```
 
+Create a virtual environment:
+```bash
+python3 -m venv venv
+```
+
 Install required dependencies:
 ```bash
 pip install -r requirements.txt
@@ -60,6 +61,9 @@ pip install -r requirements.txt
 
 ## Usage
 Follow the specific run commands listed under each implementation method. Ensure you have the necessary permissions and environment settings to execute the application.
+
+## Thanks
+- @lcandy2
 
 ## Contributing
 Contributions are welcome, especially in areas such as improving existing functionalities and extending the software to include new features. Please submit a pull request or open an issue to discuss proposed changes or additions.
